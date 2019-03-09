@@ -1,0 +1,58 @@
+table th.col-closed {width:15%}
+#kanbanHeader th{border: 1px solid #ddd; padding:8px;}
+
+#kanbanWrapper {table-layout: fixed; border-top: none}
+#kanbanWrapper > tbody > tr:first-child > td {border-top: none}
+#kanbanWrapper thead th, #kanbanWrapper thead, #kanbanWrapper thead tr {padding: 0!important; border: none!important; height: 0!important; border-bottom: none!important}
+#kanbanWrapper tbody td {vertical-align: top; padding: 6px; height:70px; min-height:70px}
+#kanbanWrapper tbody th {background: #f1f1f1}
+#kanbanWrapper .board-shadow {height: 0; opacity: 0; transition: opacity 0.2s;}
+#kanbanWrapper tbody tr.dragging td.col-droppable {background: #fff4e5}
+#kanbanWrapper tbody tr.dragging td.col-droppable.drop-to {background: #ffeacc}
+#kanbanWrapper tbody tr.dragging td.col-droppable.drop-to .board-deploy + .board-shadow {margin-top: 6px;}
+#kanbanWrapper tbody tr.dragging td.col-droppable.drop-to .board-shadow {height: 28px; background: #999; background: rgba(0,0,0,0.35); opacity: 1;}
+#kanbanWrapper tbody tr.dragging td.col-droppable.drop-to.drag-from .board-shadow {display: none}
+#kanbanWrapper .board.drag-from.dragging {opacity: 0.8;}
+
+#kanban.dragging, .drag-shadow {cursor: move!important;}
+
+.board {background: #333; color: #f1f1f1; color: rgba(255,255,255,0.9); opacity: 1; padding: 3px 6px; transition: all 0.2s; position:relative;}
+.board + .board {margin-top: 6px;}
+.board:hover {opacity: 1}
+.board a {opacity: 0.9; color: inherit}
+.board a:hover {opacity: 1}
+.board-title, .board-header, .board-footer {padding: 2px 0}
+.board-title {padding-right:20px;}
+.board-title a{display:block;}
+.board-actions {position: absolute; right: 3px; top: 3px}
+.board-actions .btn {color: inherit; margin: 0; min-width: 20px}
+.board-actions .btn:active, .board-actions .btn:focus, .board-actions .btn:hover {background: #999; color: inherit; background: rgba(255,255,255,.2);}
+.ie-8 .board-actions .btn {min-width: 10px}
+.board-actions > .dropdown {display: inline-block; margin-left: -5px;}
+.board .dropdown-menu {min-width: 80px;}
+.board .dropdown .caret {border-top-color: #999}
+.board .dropdown-menu > a {display: block; padding: 3px 15px; color: #333; font-size: 12px}
+.board .dropdown-menu > a:hover {background: #f1f1f1; color: #1a53ff; text-decoration: none}
+.board .dropdown-menu > a.disabled, .board .dropdown-menu > a.disabled:hover, .board .dropdown-menu > a.active {color: #aaa; background: none}
+.board .board-footer {display: block; margin: 0 -6px -3px -6px; padding: 5px; background: rgba(0,0,0,0.07);}
+
+.board {background: #ddd; color: #444; outline: 1px solid rgba(0,0,0,.1); outline-offset: -1px;}
+.board-deploy {color: #2b529c; background-color: #E8EAF6}
+.board-deploy-done {color: #229F24; background-color: #E8F5E9;}
+.board:hover {outline: 1px solid rgba(0,0,0,.3);}
+
+.board.inverse {background: #333; color: #f1f1f1;}
+.board.inverse:hover {color: #fff;}
+.board-deploy.inverse {background: #2b529c}
+.board-deploy-done.inverse {background: #229F24}
+
+.affix {position:fixed; top:0px; width:95%;z-index:1030;}
+#kanbanHeader.affix {box-shadow: 0 3px 10px rgba(0,0,0,.1);}
+#kanbanHeader.affix th {border-bottom: 1px solid #bbb; background: #114f8e; color: #ccc; color: rgba(255,255,255,.8)}
+#kanbanHeader.affix th {border-color: rgba(255,255,255,.2)}
+
+.col-today{width:20%}
+.col-tomorrow{width:20%}
+.col-thisweek{width:20%}
+.col-thismonth{width:20%}
+.col-done{width:20%}

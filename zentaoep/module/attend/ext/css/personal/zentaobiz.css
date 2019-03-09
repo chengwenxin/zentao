@@ -1,0 +1,4 @@
+.main .row .col-xs-4 .panel .table th{border-bottom: 1px solid #ddd; color: #000;}
+.main .row .col-xs-4 .panel .table tr.otherMonth{background: none;}
+.main .row .col-xs-4 .panel .table td{height: 32px; border-bottom: none;}
+.main .row .col-xs-4 .panel .table td .dropdown{padding-top: 3px;}

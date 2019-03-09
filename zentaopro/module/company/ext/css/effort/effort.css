@@ -1,0 +1,12 @@
+.select-7 {width:70px}
+.selectActive{border:2px solid #090;}
+
+.side-col .chosen-container .chosen-drop {min-width: 300px;!important}
+.side-col .chosen-container .chosen-single {max-width: 115px;!important}
+.outer.hide-side .side .panel{display:none;}
+.outer.hide-side .side .side-handle{height:32px;}
+#effortForm{overflow-y:auto;}
+
+.side-col{width: 228px;}
+#sidebar > .cell{width: 208px;}
+.hide-sidebar #sidebar > .cell{display: none;}

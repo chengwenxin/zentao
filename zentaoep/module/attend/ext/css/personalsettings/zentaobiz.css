@@ -1,0 +1,8 @@
+.with-side .side{width: 200px; background-color: #fff;}
+.with-side .side .menu{padding: 10px;}
+.with-side .main{padding-left: 220px;}
+.side .menu .nav li{display: block; width: 100%;}
+.side .menu .nav li a{padding: 5px 8px; border: none; border-radius: 3px; margin-bottom: 5px;}
+.side .menu .nav li:last-child a{margin-bottom: 0;}
+.side .menu .nav li a:hover {color: #fff; background-color: #006af1;}
+#ajaxForm .table a.btn {padding:6px;}

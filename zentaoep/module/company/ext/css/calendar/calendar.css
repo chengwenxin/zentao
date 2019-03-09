@@ -1,0 +1,8 @@
+.side-col .chosen-container .chosen-drop {min-width: 300px;!important}
+
+.side-col{width: 228px;}
+#sidebar > .cell{width: 208px;}
+.hide-sidebar #sidebar > .cell{display: none;}
+
+#showdata .table > thead{background: #f1f1f1;}
+#diary-title li{overflow:hidden; text-overflow:ellipsis;}

@@ -1,0 +1,9 @@
+#loginForm {width: 70%; max-width: 20rem; min-width: 10rem;}
+
+.affix.nav {z-index: 1051}
+#loginLogo .article{padding: 0 3rem 0 2rem;}
+
+@media (max-height: 20rem)
+{
+  #loginLogo {display: none}
+}

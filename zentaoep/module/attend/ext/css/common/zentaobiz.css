@@ -1,0 +1,2 @@
+.table-bordered td, .table-bordered th {border: 1px solid #ddd !important;}
+.table-data tbody > tr >td {padding-right:8px !important;}

@@ -1,0 +1,2 @@
+.chosen-container-single .chosen-drop {min-width: 300px; border-top: 1px solid #ddd!important}
+label[for=needNotReview]:before, label[for=needNotReview]:after {right: unset; left: unset;}

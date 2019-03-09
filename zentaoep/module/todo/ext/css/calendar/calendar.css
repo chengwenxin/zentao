@@ -1,0 +1,21 @@
+#main .side-col{width: 250px;}
+#main .side-col .nav-secondary > li > a {padding: 16px 0;}
+#todoCalendar {min-height: 300px; margin: 0;}
+#todoCalendar .event {padding-left: 20px;}
+.todo-list {list-style: none; padding-left: 0; margin: 20px 0 0 0;}
+.todo-list > li {margin: 10px 0; display: block;}
+.todo-list > li:last-child {margin-bottom: 0}
+#todoLists .todo-item {line-height: 24px; border: 1px solid #EEEEEE; padding-left: 5px; position: relative; display: block; font-size: 12px; color: #343434; overflow:hidden;white-space: nowrap;}
+#todoLists .todo-item[data-type="todo"] {padding-left: 25px;}
+#todoLists .todo-item:hover {text-decoration: unset; background-color: #f1f1f1; border-color: #ddd;}
+#todoLists .todo-item > .todo-check {position: absolute; left: 0; top: 0; width: 24px; height: 24px; line-height: 24px; text-align: center; color: #EBEBEB; font-size: 14px;}
+#todoLists .todo-item > .todo-check:hover {color: #ccc;}
+#todoLists .todo-list .active .todo-item > .todo-check {color: #00DA88;}
+#todoLists .todo-list .active .todo-item > .todo-check:hover {color: #00a768;}
+#todoLists .todo-item.drag-shadow {background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.2);}
+#todoLists .todo-item.drag-shadow .todo-edit {opacity: 0!important;}
+#todoLists .todo-item .todo-edit {opacity: 0; position: absolute; width: 24px; height: 22px; line-height: 22px; text-align: center; right: 0; top: 1px; background: #fff; transition: opacity .2s;}
+#todoLists .todo-item:hover .todo-edit {opacity: 1;}
+.main-row .main-col + .side-col {padding-left: 10px;}
+
+ul.nav.nav-primary > li.active > a{background-color:#00a9fc; color:white;}

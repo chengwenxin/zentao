@@ -1,0 +1,13 @@
+.reportData.table{margin-bottom: 0;}
+.panel-body + .panel-footer{margin-top: 10px;}
+
+.tablesorter thead tr .header > .tablesorter-header-inner:after{font-family: NewZenIcon;font-weight: normal;content: " \e6bd";font-size: 14px;}
+.tablesorter thead tr .headerSortDown > .tablesorter-header-inner:after{font-family: NewZenIcon;font-weight: normal;content: " \e6b8";font-size: 14px;color: #03C;}
+.tablesorter thead tr .headerSortUp > .tablesorter-header-inner:after{font-family: NewZenIcon;font-weight: normal;content: " \e6b9";font-size: 14px;color: #03C;}
+
+.chosen-drop {min-width: 300px;!important}
+
+.datatable{margin-bottom:0px !important;}
+.datatable table tr td{height:30px;}
+.panel .flexarea .table {border-left: 1px solid #ddd !important;}
+.fixed-left table td,.fixed-left table th{border-right:1px solid #ddd !important;}

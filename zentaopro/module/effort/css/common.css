@@ -1,0 +1,19 @@
+.w-20px{width:20px}
+.w-40px{width:40px}
+.w-180px{width:180px}
+.w-345px{width:345px}
+
+.select-2{width:60px}
+.select-6{width:100%}
+.select-7{width:70px}
+.select-7.w-date{width:80px}
+.w-type  {width:150px}
+.select-3{width:265px}
+.half-left {text-align:right}
+.half-right{text-align:left}
+.text-1{width:100%}
+.text-6{width:75%}
+.disabled{background-color:#ddd; border:1px solid #aaa;}
+#wrap .outer>form>table.table-1>caption .dp-choose-date{height: 34px;}
+#effort{margin-bottom: 20px;}
+#objectTable th{text-align:center;}

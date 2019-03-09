@@ -1,0 +1,7 @@
+[Sat Mar 09 20:48:18.711752 2019] [ssl:warn] [pid 16476:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 09 20:48:18.787956 2019] [mpm_winnt:notice] [pid 16476:tid 648] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k configured -- resuming normal operations
+[Sat Mar 09 20:48:18.787956 2019] [mpm_winnt:notice] [pid 16476:tid 648] AH00456: Server built: Dec 16 2016 23:05:57
+[Sat Mar 09 20:48:18.787956 2019] [core:notice] [pid 16476:tid 648] AH00094: Command line: 'E:\\xampp\\apache\\bin\\httpd.exe -d E:/xampp/apache'
+[Sat Mar 09 20:48:18.815029 2019] [mpm_winnt:notice] [pid 16476:tid 648] AH00418: Parent: Created child process 4360
+[Sat Mar 09 20:48:20.508527 2019] [ssl:warn] [pid 4360:tid 572] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 09 20:48:20.557658 2019] [mpm_winnt:notice] [pid 4360:tid 572] AH00354: Child: Starting 150 worker threads.

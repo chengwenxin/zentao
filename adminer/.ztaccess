@@ -1,0 +1,5 @@
+# apache auth config
+AuthName "zentao runner authentication required"
+AuthType Basic
+AuthUserFile "E:/xampp/apache/auth/.htaccess"
+Require valid-user

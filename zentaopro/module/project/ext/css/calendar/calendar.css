@@ -1,0 +1,17 @@
+#taskLists {height: 656px; overflow-y: auto; overflow-x:hidden}
+.task-list {list-style: none; padding: 0;margin: 0;}
+#taskLists > .task-list:last-child {border-bottom: none;}
+.task-list > li {padding: 4px 0 4px 10px; position: relative; font-size: 12px;}
+.task-list > li > a > .status {display: block; position: absolute; left: 10.5px; top: 4px;}
+.task-list > li > a:before {content: ' '; display: block; position: absolute; top: 0; left: -10px; right: -10px; bottom: 0; background: rgba(0,0,0,.05); opacity: 0;}
+.task-list > li:hover > a:before {opacity: 1;}
+.task-list > li:before {content: ' '; display: block; position: absolute; left: 14px; top: 0; bottom: 0;}
+#taskLists > .task-list:last-child > li:last-child:before {bottom: 3px;}
+#taskLists > .task-list:first-child > li:first-child:before {top: 10px;}
+.task-list > .heading:after {content: ' '; position: absolute; display: block; width: 9px; height: 9px; border: 2px solid #ddd; border-radius: 50%; left: 10px; top: 7px; background: #fff;}
+
+#mainContent > .side-col {width: 300px;}
+.calendar .weekends-empty .table>tbody>tr>td.weekend-day, .calendar .weekends-empty .table>thead>tr>th.weekend-head {width: 72px;}
+.calendar.limit-event-title .event {margin-top: 0!important}
+
+#undoneTask{font-size: 16px}

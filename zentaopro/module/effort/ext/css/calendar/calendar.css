@@ -1,0 +1,6 @@
+#effortCalendar {min-height: 300px; margin: 0;}
+#effortCalendar .event {padding-left: 32px; padding-right: 0;}
+#effortCalendar .event > .time {right: auto; left: 1px; color: #00da88;}
+.main-row .main-col + .side-col {padding-left: 10px;}
+
+ul.nav.nav-primary > li.active > a{background-color:#00a9fc; color:white;}

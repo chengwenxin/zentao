@@ -1,0 +1,9 @@
+#effortBatchAddHeader {padding-bottom: 12px;}
+#effortBatchAddHeader .input-group {width: 150px;position: relative;top: -3px;left: 15px;}
+#effortBatchAddForm .col-id {width: 50px;text-align: center; color: #838A9D;height: 42px;}
+#effortBatchAddForm .col-consumed {width: 80px;}
+#effortBatchAddForm .col-objectType {width: 280px;}
+#effortBatchAddForm .col-project {width: 280px;}
+#effortBatchAddForm .col-left {width: 80px;}
+#effortBatchAddForm .col-actions {width: 90px;}
+#effortBatchAddForm tbody > tr {transition: outline .8s, background .8s; outline: 1px solid transparent;}

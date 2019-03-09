@@ -1,0 +1,13 @@
+.icon, [class*=" icon-"], [class^=icon-] {font-size: 16px;}
+
+.panel .reportData {width:auto; border:1px solid #ddd !important;}
+.input-group .chosen-container-single .chosen-single {border-radius: 2px 0 0 2px;}
+.input-group .chosen-container-single + .input-group-btn .btn {border-radius: 0 2px 2px 0}
+.panel-body.scroll-table {padding: 0;}
+.scroll-table {overflow-x: auto}
+.scroll-table > .table {width: auto}
+.input-group-btn{text-align:left;}
+
+.tablesorter thead tr .header > .tablesorter-header-inner:after{font-family: NewZenIcon;font-weight: normal;content: " \e6bd";font-size: 14px;}
+.tablesorter thead tr .headerSortDown > .tablesorter-header-inner:after{font-family: NewZenIcon;font-weight: normal;content: " \e6b8";font-size: 14px;color: #03C;}
+.tablesorter thead tr .headerSortUp > .tablesorter-header-inner:after{font-family: NewZenIcon;font-weight: normal;content: " \e6b9";font-size: 14px;color: #03C;}

@@ -1,0 +1,312 @@
+/* Appbar & appnav */
+
+#appbar {justify-content: space-between;}
+#appbar > .title {flex: none; position: relative; padding: .2rem 1.5rem .2rem 2.5rem; min-width: 5rem; background-color: rgba(0,0,0,.1); line-height: 2rem}
+#appbar > .title > .avatar {position: absolute; top: .5rem; left: .5rem}
+#appbar > .title > .icon {position: absolute; top: .2rem; right: .5rem;}
+#appbar > .title > .avatar > .icon {line-height: 1.5rem}
+.control-group {display: flex; align-items: stretch;}
+.icon-large {font-size: 1.3rem;}
+.profile > .avatar, #searchbar > .avatar{width: 1.2rem; height: 1.2rem}
+
+/* App menu */
+
+#appMenu  {min-width: 5rem; position: fixed; top: 2.4rem; left: 0}
+#appMenu > .item > .title {font-size: .8rem}
+
+/* User menu */
+
+#userMenu {min-width: 9rem; max-width: 50%; position: fixed; top: 2.4rem; left: 0}
+#userMenu .lang-menu {left: 1.2rem}
+
+#userMenu .signin-icon {position: relative}
+#userMenu .signin-icon:before {font-size: 1.05rem}
+#userMenu .signin-icon > .icon-check {position: absolute; top: .15rem; left: .15rem}
+
+/* Search Box */
+#searchBox {width: 100%; position: fixed; top: 0; left: 0}
+#searchBox .dropdown-search-menu {margin-top: 0; left: 1px; list-style:none;}
+#searchBox .dropdown-search-menu > li{float:left; width:50%; border-bottom:1px solid #ddd;}
+#searchBox .dropdown-search-menu > li > a {padding: 5px 8px; display:block}
+#searchBox .dropdown-search-menu.show-quick-go.with-active {padding-top: 30px;position: relative;}
+#searchBox .dropdown-search-menu.show-quick-go > li.active {position: absolute; top: 0; left: 20px; right: 0; width: 100%; background:#f1f1f1}
+
+/* Blocks */
+
+.blocks > .section > .content {overflow: auto; min-height: 1.5rem; max-height: 15rem; position: relative}
+
+.object-link {padding: .2rem .25rem; display: block; margin-top: .15rem; border: .05rem solid rgba(0,0,0,.1)!important}
+
+
+/* Menu */
+
+.with-heading-top.with-nav-top.with-menu-top {padding-top: 7.2rem;}
+.with-heading-top.with-nav-top.with-menu-top .menu.affix.dock-top {top: 4.8rem}
+.in-scroll.scroll-down.with-heading-top .menu.dock-top,
+.in-scroll.scroll-down .with-heading-top .menu.dock-top {transform: translate(0, -2.4rem);}
+
+#appnav {transform: none!important}
+.with-heading-top.with-nav-top > .nav.affix.dock-top{top: 2.2rem;}
+
+/* List */
+
+.headline > .pull-right.label + .pull-right.label,
+.list > .item > .title > .pull-right.label + .pull-right.label,
+.list > .item > .content > .title > .pull-right.label + .pull-right.label {margin-right: .2rem}
+
+/* Priority colors */
+
+.pri-0, .pri-1, .pri-2,
+.pri-3, .pri-4, .pri-5 {color: #fff}
+.pri-0.outline, .pri-1.outline, .pri-2.outline,
+.pri-3.outline, .pri-4.outline, .pri-5.outline {border-width: .1rem; font-weight: bold}
+.pri-0 {background: #DDD;}
+.pri-1 {background: #F44336;}
+.pri-2 {background: #EF6C00;}
+.pri-3 {background: #9C27B0;}
+.pri-4 {background: #03A9F4;}
+.pri-5 {background: #009688;}
+
+.pri-0.text-tint {color: #757575; background: none}
+.pri-1.text-tint {color: #F44336; background: none}
+.pri-2.text-tint {color: #EF6C00; background: none}
+.pri-3.text-tint {color: #9C27B0; background: none}
+.pri-4.text-tint {color: #03A9F4; background: none}
+.pri-5.text-tint {color: #009688; background: none}
+
+.pri-0.outline {border-color: #757575;}
+.pri-1.outline {border-color: #F44336;}
+.pri-2.outline {border-color: #EF6C00;}
+.pri-3.outline {border-color: #9C27B0;}
+.pri-4.outline {border-color: #03A9F4;}
+.pri-5.outline {border-color: #009688;}
+
+
+/* Status colors */
+
+.status-signed,
+.status-pass,
+.status-replied,
+.status-done   {background: #4CAF50; color: #fff}
+
+.status-transfered,
+.status-potential {background: #F44336; color: #fff}
+
+.status-draft,
+.status-intension,
+.status-developing,
+.status-viewed,
+.status-doubted,
+.status-doing  {background: #EF6C00; color: #fff}
+.status-wait,
+.status-normal {background: #03A9F4; color: #fff}
+.status-payed {background: #795548; color: #fff}
+.status-canceled,
+.status-offline,
+.status-reject,
+.status-finish,
+.status-closed {background: #666; color: #fff}
+
+.status-signed-pale,
+.status-pass-pale,
+.status-replied-pale,
+.status-done-pale   {background: #E8F5E9; color: #4CAF50}
+
+.status-transfered-pale,
+.status-potential-pale {background: #FFEBEE; color: #F44336}
+.status-draft-pale,
+.status-intension-pale,
+.status-viewed-pale,
+.status-doubted-pale,
+.status-developing-pale,
+.status-doing-pale  {background: #FFF8E1; color: #EF6C00}
+.status-wait-pale,
+.status-normal-pale {background: #E1F5FE; color: #03A9F4}
+.status-payed-pale {background: #EFEBE9; color: #795548}
+.status-canceled-pale,
+.status-offline-pale,
+.status-reject-pale,
+.status-finish-pale,
+.status-closed-pale {background: #ddd; color: #444}
+
+.bug-resolved{color:#229f24;}
+td[class$="-done"],td[class$="-pass"],td[class$="-resolved"],td[class$="-normal"],td[class$="-active"]{color:#229f24;}
+td[class$="-wait"] {color:#808080;}
+td[class$="-pause"],
+td[class$="-suspended"] {color:#E48600;}
+td[class$="-delay"] {color:#e84e0f;}
+td[class$="-closed"],
+td[class$="-cancel"] {color:#888;}
+td[class$="-doing"],
+td[class$="-changed"],
+td[class$="-investigate"] {color:#d2322d;}
+td[class$="-delayed"] {background:#e84e0f!important; color:white;}
+td[class$="-blocked"] {background:yellow!important;}
+td[class$="-fail"]  {color:#d2322d}
+td[class$="-draft"]  {color:#8957a1}
+td.bug-active{color: #8957a1}
+td.story-active, .testcase-normal, .story-active {color: #333}
+
+/* Level colors */
+
+.level-, .level-0, .level-A,
+.level-B, .level-C, .level-D, .level-E {color: #fff}
+.level-,
+.level-0 {background: #DDD;}
+.heading.level-,
+.heading.level-0 {background: #444;}
+.level-A {background: #F44336;}
+.level-B {background: #EF6C00;}
+.level-C {background: #9C27B0;}
+.level-D {background: #03A9F4;}
+.level-E {background: #009688;}
+.text-level-, .text-level-0 {color: #666}
+.text-level-A {color: #F44336;}
+.text-level-B {color: #EF6C00;}
+.text-level-C {color: #9C27B0;}
+.text-level-D {color: #03A9F4;}
+.text-level-E {color: #009688;}
+
+/* Sort panel */
+
+.sort-panel {max-height: 100%; overflow-y: scroll; top: auto}
+.sort-panel > a {display: block; padding: .5rem; opacity: .8}
+.sort-panel > a > .icon-sort-indicator {display: inline-block; min-width: 1rem; text-align: center; margin-right: .5rem}
+.sort-trigger.SortUp > .icon-sort:before,
+.sort-panel > a.SortUp > .icon-sort-indicator:before {content: '\e72f';}
+.sort-trigger.SortDown > .icon-sort:before,
+.sort-panel > a.SortDown > .icon-sort-indicator:before {content: '\e730';}
+.sort-panel > a.SortUp, .sort-panel > a.SortDown {opacity: 1; background-color: rgba(0,0,0,.1)}
+.sort-panel > a:before {position: absolute; display: block; top: .5rem; right: .5rem; font-size: .6rem; line-height: 1rem; opacity: .8}
+.sort-trigger.SortUp > span:after,
+.sort-panel > a.SortUp:before {content: 'ASC'}
+.sort-trigger.SortDown > span:after,
+.sort-panel > a.SortDown:before {content: 'DESC'}
+html[lang='zh-cn'] .sort-trigger.SortUp > span:after,
+html[lang='zh-cn'] .sort-panel > a.SortUp:before {content: '升序排列'}
+html[lang='zh-cn'] .sort-trigger.SortDown > span:after,
+html[lang='zh-cn'] .sort-panel > a.SortDown:before {content: '降序排列'}
+html[lang='zh-tw'] .sort-trigger.SortUp > span:after,
+html[lang='zh-tw'] .sort-panel > a.SortUp:before {content: '升序排列'}
+html[lang='zh-tw'] .sort-trigger.SortDown > span:after,
+html[lang='zh-tw'] .sort-panel > a.SortDown:before {content: '降序排列'}
+.sort-trigger.SortUp > span:after,
+.sort-trigger.SortDown > span:after {font-size: .6rem; display: inline-block; margin: 0 .25rem; opacity: .8}
+
+
+/* Disable context menu */
+
+.no-contextmenu {-webkit-touch-callout: none; -webkit-user-select: none; touch-callout: none;}
+
+
+/* List with actions */
+
+#actionsPanel {top: auto;}
+#actionsPanel > a {padding-left: 1.5rem;}
+#actionsPanel > a.selected {padding-left: .5rem; border-bottom: ..5rem solid rgba(0,0,0,.1)}
+
+
+/* List with pager */
+
+.list-with-pager > .list + .list {border-top: none}
+.pager-more.loading .text-link {color: transparent;}
+
+nav.pager{padding: 0 10px;}
+ul.pager{padding: 0;}
+.pager .caption {opacity: .5;}
+.pager > li > a{position: relative; float: left; padding: 8px 10px; margin-left: -1px; line-height: 1.42857143; text-decoration: none; background-color: #fff; border: 1px solid #ddd;}
+.pager > li:first-child > a{margin-left: 0; border-top-left-radius: 2px; border-bottom-left-radius: 2px;} 
+
+.pager-justify {display: table; width: 100%;}
+.pager-justify > li {display: table-cell;text-align: center; vertical-align: middle;}
+.pager-justify .previous { text-align: left;}
+.pager-justify .next { text-align: right; }
+.pager-justify > li > a { display: inline-block; float: none;}
+
+/* Place holder */
+
+.affix-nav-holder {height: 2rem}
+
+
+/* History */
+
+.list-history > .item.single-line {padding: .3rem .5rem}
+.list-history .comment,
+.list-history .history {background-color: rgba(0,0,0,.05); font-size: .6rem; padding: .25rem .4rem; margin-top: .25rem}
+.list-history .comment > *:not(.hidden):last-child,
+.list-history .history > *:not(.hidden):last-child {margin-bottom: 0}
+.list-history .history blockquote {margin-top: 0; margin-bottom: .1rem; margin-left: .6rem}
+.list-history .history del {color: #ea644a}
+.list-history .history ins {color: #38b03f}
+.list-history .files {margin-left: 2.5rem; margin-right: .5rem}
+.list-history .files > .heading > .title {padding: .3rem .5rem 0 .5rem}
+
+
+/* Modal */
+
+.modal.enter-from-bottom,
+.modal.scale-from-bottom {margin-top: 2.4rem}
+.enter-from-bottom.affix {top: auto; -webkit-transform: translate(0,105%); transform: translate(0,105%); transition: .3s cubic-bezier(.175,.885,.32,1);}
+.enter-from-bottom.affix.in {-webkit-transform: translate(0,0); transform: translate(0,0);}
+.modal > .section {margin-bottom: 0}
+.modal-backdrop + .display-layer > .modal.enter-from-bottom,
+.modal-backdrop + .display-layer > .modal.scale-from-bottom {margin-top: 4rem}
+.modal-backdrop + .display-layer + .modal-backdrop + .display-layer > .modal.enter-from-bottom,
+.modal-backdrop + .display-layer + .modal-backdrop + .display-layer > .modal.scale-from-bottom {margin-top: 5.6rem}
+
+/* Text styles */
+.break-word {word-wrap:break-word; word-break:break-all;}
+
+
+/* Form */
+
+form > .heading {margin: -.5rem -.5rem .5rem -.5rem;}
+.control.required > label:after {content: '*'; color: red}
+
+/* Progress bar */
+
+.progress {position: relative; box-shadow: inset 0 -.15rem 0 rgba(0,0,0,.05)}
+.progress > .bar {position: absolute; top: 0; bottom: 0; left: 0; background-color: rgba(255, 150, 100, .15); border-bottom: .15rem solid rgba(255, 150, 100, .8)}
+.progress > .bar.complete {right: 0; background-color: rgba(0, 255, 0, .15); border-color: rgba(150, 255, 100, .8);}
+
+.footer-actions{bottom: 48px!important;}
+
+.table-detail tr > td:first-child {border-color: #ddd!important; background-color: #f1f1f1!important; text-align: center;}
+
+.w-20px  {width: 1rem;}
+.w-40px  {width: 2rem;}
+.w-50px  {width: 2.5rem;}
+.w-60px  {width: 3rem;}
+.w-70px  {width: 3.5rem;}
+.w-80px  {width: 4rem;}
+.w-90px  {width: 4.5rem;}
+.w-100px {width: 5rem;}
+.w-110px {width: 5.5rem;}
+.w-120px {width: 6rem;}
+
+#moreApp{min-width: 4rem;}
+#moreAppnav {max-width: 4rem;}
+#moreMenu {max-width: 4rem;}
+
+/* Page */
+#page.list-with-pager {margin-bottom: 2.4rem;}
+#page.list-with-actions {margin-bottom: 2.4rem;}
+
+.heading > .title > .prefix{display: inline-block; margin-right: 5px; color: #666;}
+.heading > .title > .prefix > strong{font-weight: normal; border: 1px solid #aaa; padding: 0px 4px; background: #fff; text-align: center; min-width: 20px; color: #666;}
+
+#searchResult.with-closed{padding-bottom:2.4rem;}
+.display.modal.in.searching #searchResult,
+.display.modal.in.searching #defaultMenu {display: block;}
+.display.modal.in.searching #defaultMenu .heading,
+.display.modal.in.searching #defaultMenu #closedCollapse,
+.display.modal.in.searching .list > .item {display: none}
+.display.modal.in.searching .list > .item.show-search {display: block}
+
+.article{
+  padding: 10px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.blocks > .section > .content{min-height:0px !important;}

@@ -1,0 +1,5 @@
+.productCol{width:250px; padding-bottom:5px;}
+.releaseCol{width:250px;}
+.actionCol{width:90px}
+.productCol .chosen-single, .releaseCol .chosen-single{width:200px !important}
+#kanbanHeader{margin-bottom:0px;}

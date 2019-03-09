@@ -1,0 +1,8 @@
+.nav-tabs .nav-heading{padding-bottom:2px;padding-top:5px;}
+
+.label-status{background:none; border:1px solid #ddd; font-weight:normal; margin-left:5px;}
+.status-commenting {color: #d2322d;}
+.status-replied    {color: #BD7B46;}
+.status-asked      {color: #E48600;}
+.status-tobug      {color: #8957a1;}
+.status-tostory    {color: #8957a1;}

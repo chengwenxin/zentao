@@ -1,0 +1,7 @@
+2019-03-09 20:48:46 15676 [Note] Plugin 'InnoDB' is disabled.
+2019-03-09 20:48:46 15676 [Note] Server socket created on IP: '127.0.0.1'.
+2019-03-09 20:48:46 4656 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1286: Unknown storage engine 'InnoDB'
+2019-03-09 20:48:47 15676 [Note] E:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-03-09 20:53:51 8072 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-03-09 20:54:53 8072 [Warning] feedback plugin: failed to parse server reply

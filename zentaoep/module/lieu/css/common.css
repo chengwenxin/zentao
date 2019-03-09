@@ -1,0 +1,8 @@
+.tree > li {margin-right: 0;}
+.tree li.active > a{font-weight: bold;}
+
+.with-side .side{left: 20px; position: absolute; width: 140px;}
+.with-side .main{padding-left: 160px; margin-right: 0;} 
+
+.lieu-pass{color: #38B03F}
+.lieu-reject{color: #EA644A}

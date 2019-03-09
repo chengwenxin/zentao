@@ -1,0 +1,30 @@
+html[lang='en'] .table-form > tbody > tr > th {width:130px !important;}
+.nav-tabs.nav-stacked {
+    border-right: 1px solid #ddd;
+    border-bottom: none;
+    margin-bottom:8px;
+}
+.nav-tabs.nav-stacked > li {
+    float: none;
+    margin-right: -1px;
+    margin-bottom: 0;
+}
+.nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0;
+}
+.nav-tabs.nav-stacked > li > a {
+    margin-right: 0;
+    border-radius: 4px 0 0 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.nav-tabs.nav-stacked > li.active > a, .nav-tabs.nav-stacked > li.active > a:focus, .nav-tabs.nav-stacked > li.active > a:hover {
+    border: 1px solid #ddd;
+    border-right-color: transparent;
+}
+
+#servicesTreemap{overflow:auto; white-space: nowrap;}
+#serviceList{overflow-y:auto;}
+

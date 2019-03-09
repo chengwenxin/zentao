@@ -1,0 +1,2 @@
+alter table zt_effort modify column work text;
+UPDATE `zt_report` set `desc` = '{\"zh-cn\":\"\\u5217\\u51fa\\u4ea7\\u54c1\\u7684\\u9700\\u6c42\\u6570\\uff0c\\u5b8c\\u6210\\u7684\\u9700\\u6c42\\u603b\\u6570\\uff0cbug\\u6570\\uff0c\\u89e3\\u51b3\\u7684bug\\u603b\\u6570\\uff0cbug\/\\u9700\\u6c42\\uff0c\\u91cd\\u8981bug\\u6570\\u91cf(\\u4e25\\u91cd\\u7a0b\\u5ea6\\u4e0d\\u5927\\u4e8e3)\",\"zh-tw\":\"\",\"en\":\"\"}' WHERE `code` = 'product-quality';

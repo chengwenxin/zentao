@@ -1,0 +1,5 @@
+.chosen-container-single .chosen-drop {min-width: 300px; border-top: 1px solid #ddd!important}
+select[name^=type] {border-right: none;}
+select[name^=type] + .input-group-addon {width: 0px;}
+select[name^=os] {border-right: none;}
+select[name^=os] + .input-group-addon {width: 0px;}
