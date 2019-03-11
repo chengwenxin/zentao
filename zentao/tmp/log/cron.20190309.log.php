@@ -210,3 +210,45 @@ output : NO WEBHOOK EXIST.
 command: moduleName=admin&methodName=deleteLog.
 return : .
 output : 
+22:10:46 task 7 executed,
+command: moduleName=mail&methodName=asyncSend.
+return : .
+output : OK
+
+22:10:46 task 8 executed,
+command: moduleName=webhook&methodName=asyncSend.
+return : .
+output : NO WEBHOOK EXIST.
+
+22:10:46 task 9 executed,
+command: moduleName=admin&methodName=deleteLog.
+return : .
+output : 
+22:15:47 task 7 executed,
+command: moduleName=mail&methodName=asyncSend.
+return : .
+output : OK
+
+22:15:47 task 8 executed,
+command: moduleName=webhook&methodName=asyncSend.
+return : .
+output : NO WEBHOOK EXIST.
+
+22:15:47 task 9 executed,
+command: moduleName=admin&methodName=deleteLog.
+return : .
+output : 
+22:20:47 task 7 executed,
+command: moduleName=mail&methodName=asyncSend.
+return : .
+output : OK
+
+22:20:47 task 8 executed,
+command: moduleName=webhook&methodName=asyncSend.
+return : .
+output : NO WEBHOOK EXIST.
+
+22:20:47 task 9 executed,
+command: moduleName=admin&methodName=deleteLog.
+return : .
+output : 

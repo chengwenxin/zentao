@@ -76,7 +76,7 @@ js::set('oldResolvedBuild'       , $bug->resolvedBuild);
             ?>
           </div>
           <hr class='small' />
-          <?php include '../../common/view/action.html.php';?>
+          <?php include '../../../common/view/action.html.php';?>
         </div>
       </div>
       <div class='side-col col-4'>
@@ -308,4 +308,4 @@ js::set('oldResolvedBuild'       , $bug->resolvedBuild);
     </div>
   </form>
 </div>
-<?php include '../../common/view/footer.html.php';?>
+<?php include '../../../common/view/footer.html.php';?>

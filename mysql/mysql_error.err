@@ -5,3 +5,16 @@
 Version: '10.1.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
 2019-03-09 20:53:51 8072 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
 2019-03-09 20:54:53 8072 [Warning] feedback plugin: failed to parse server reply
+2019-03-09 22:24:31 5444 [Note] E:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+2019-03-09 22:24:31 5444 [Note] Event Scheduler: Purging the queue. 0 events
+2019-03-09 22:24:31 8072 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': 不知道这样的主机。 
+2019-03-09 22:24:31 5444 [Note] E:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2019-03-09 22:25:17 8524 [Note] Plugin 'InnoDB' is disabled.
+2019-03-09 22:25:17 8524 [Note] Server socket created on IP: '127.0.0.1'.
+2019-03-09 22:25:17 9084 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1286: Unknown storage engine 'InnoDB'
+2019-03-09 22:25:17 8524 [Note] E:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-03-10  9:29:31 8980 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-03-10  9:30:33 8980 [Warning] feedback plugin: failed to parse server reply

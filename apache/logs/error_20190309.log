@@ -5,3 +5,12 @@
 [Sat Mar 09 20:48:18.815029 2019] [mpm_winnt:notice] [pid 16476:tid 648] AH00418: Parent: Created child process 4360
 [Sat Mar 09 20:48:20.508527 2019] [ssl:warn] [pid 4360:tid 572] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
 [Sat Mar 09 20:48:20.557658 2019] [mpm_winnt:notice] [pid 4360:tid 572] AH00354: Child: Starting 150 worker threads.
+[Sat Mar 09 22:24:08.577112 2019] [mpm_winnt:notice] [pid 16476:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 09 22:25:18.567025 2019] [core:warn] [pid 7364:tid 608] AH00098: pid file E:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 09 22:25:18.895695 2019] [ssl:warn] [pid 7364:tid 608] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 09 22:25:19.275294 2019] [mpm_winnt:notice] [pid 7364:tid 608] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k configured -- resuming normal operations
+[Sat Mar 09 22:25:19.278833 2019] [mpm_winnt:notice] [pid 7364:tid 608] AH00456: Server built: Dec 16 2016 23:05:57
+[Sat Mar 09 22:25:19.278833 2019] [core:notice] [pid 7364:tid 608] AH00094: Command line: 'E:\\xampp\\apache\\bin\\httpd.exe -d E:/xampp/apache'
+[Sat Mar 09 22:25:19.300802 2019] [mpm_winnt:notice] [pid 7364:tid 608] AH00418: Parent: Created child process 9272
+[Sat Mar 09 22:25:22.605597 2019] [ssl:warn] [pid 9272:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 09 22:25:22.660891 2019] [mpm_winnt:notice] [pid 9272:tid 628] AH00354: Child: Starting 150 worker threads.

@@ -176,7 +176,7 @@ class project extends control
         if($this->app->getViewType() == 'mhtml') $recPerPage = 10;
         $pager = new pager($recTotal, $recPerPage, $pageID);
 
-        /* Get tasks. */
+        /* Get tasks. */  //demand3
         $tasks = $this->project->getTasks($productID, $projectID, $this->projects, $browseType, $queryID, $moduleID, $sort, $pager);
 
        /* Build the search form. */

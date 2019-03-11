@@ -1021,6 +1021,11 @@ class projectModel extends model
             $tasks = $this->getSearchTasks($taskQuery, $pager, $sort);
         }
 
+  // demand3 巧妙的console.log()技巧          
+$myfile = fopen("./getTasks.txt", "w");
+fwrite($myfile, var_export($tasks, true));
+fclose($myfile);
+
         return $tasks;
     }
 
@@ -2030,7 +2035,7 @@ class projectModel extends model
                 }
             }
         }
-        return $this->loadModel('task')->processTasks($tasks);
+        return $this->loadModel('task')->processTasks($tasks); 
     }
 
     /**

@@ -27,7 +27,7 @@ js::set('confirmDeleteTemplate', $lang->bug->confirmDeleteTemplate);
       <h2><?php echo $lang->bug->create;?></h2>
       <div class="pull-right btn-toolbar">
         <?php $customLink = $this->createLink('custom', 'ajaxSaveCustomFields', 'module=bug&section=custom&key=createFields')?>
-        <?php include '../../common/view/customfield.html.php';?>
+        <?php include '../../../common/view/customfield.html.php';?>
       </div>
     </div>
     <form class="load-indicator main-form form-ajax" method='post' enctype='multipart/form-data' id='dataform'>
@@ -354,4 +354,4 @@ js::set('confirmDeleteTemplate', $lang->bug->confirmDeleteTemplate);
   </div>
 </div>
 <?php js::set('bugModule', $lang->bug->module);?>
-<?php include '../../common/view/footer.html.php';?>
+<?php include '../../../common/view/footer.html.php';?>

@@ -56,7 +56,7 @@
       </div>
       <?php echo $this->fetch('file', 'printFiles', array('files' => $bug->files, 'fieldset' => 'true'));?>
       <?php $actionFormLink = $this->createLink('action', 'comment', "objectType=bug&objectID=$bug->id");?>
-      <?php include '../../common/view/action.html.php';?>
+      <?php include '../../../common/view/action.html.php';?>
     </div>
     <?php
     $params        = "bugID=$bug->id";
@@ -375,5 +375,5 @@
 <div id="mainActions" class='main-actions'>
   <?php common::printPreAndNext($preAndNext);?>
 </div>
-<?php include '../../common/view/syntaxhighlighter.html.php';?>
-<?php include '../../common/view/footer.html.php';?>
+<?php include '../../../common/view/syntaxhighlighter.html.php';?>
+<?php include '../../../common/view/footer.html.php';?>
